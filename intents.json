@@ -1,0 +1,187 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey","Greetings"
+      ],
+      "responses": ["Hello! Welcome to Dr. Mahalingam College of Engineering & Technology, how may i help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Farewell","take care"
+      ],
+      "responses": ["Thank you for visiting us. Have a great day!"]
+    },
+    {
+      "tag": "Mcet college",
+      "patterns": [
+        "How do I reach MCET?","where is Mcet?","Mcet location","location of college"
+      ],
+      "responses": ["The college is situated on Dindugal-Coimbatore National Highway road NH-209. Hence those \n who are coming from Palani can get down at college entrance.\nThose who are reaching Pollachi bus stand can take the Town bus No. 24 and private mofusul \n buses plying via NPT (polytechnic) and get down at NPT Polytechnic stop."]
+    },
+    {
+      "tag": "fee",
+      "patterns": [
+        "What is the fees?", "Tell me about the fee structure","fees"
+      ],
+      "responses": ["The fee structure differ from courses, kindly contact the office for more information."]
+    },
+    {
+      "tag": "founders",
+      "patterns": [
+        "who are your founders","founders"
+      ],
+      "responses": ["The founder of Dr. Mahalingam College of Engineering & Technology is Dr.Mahalingam"]
+    },
+    {
+      "tag": "courses",
+      "patterns": [
+        "what are the types of courses available","courses "
+      ],
+      "responses": ["Are you seeking for Undergraduate course or Postgraduate course?"]
+    },
+    {
+      "tag": "UG-courses",
+      "patterns": [
+        "UG","UG courses"
+      ],
+      "responses": ["B.E CSE(AI&ML),\nB.E CSE(CYBER SECURITY),\nB.E CSE,\nB.TECH CSE(AI&DS),\nB.E EEE,\nB.TECH IT,\nB.E ECE,\nB.E MECH,\nB.E CIVIL,\nB.E AUTOMOBILE,\nB.E VLSI,\nB.E ACT"]
+    },
+    {
+      "tag": "scholarship",
+      "patterns": [
+        "what are the scholarship available","scholarship","scholarship available"
+      ],
+      "responses": ["Yes, a scholarship called Arutchelvar Vidhya Sakthi Scholarship (AVS Scholarship) will be \n awarded to hundred first year students during Second semester based on their performance in \n Semester I and also considering their economical background. \n The scholarship amount will be Rs. 10, 000/- for I year and based on their academic \n performance in forthcoming semesters the scholarship will be continued to the students till \n Final year as follows: \n II year Rs.15,000 \n III Year Rs. 20,000 \n IV year  Rs. 25,000"]
+    },
+    {
+      "tag": "dress code",
+      "patterns": [
+        "What is the dress code followed in MCET?","dress code"
+      ],
+      "responses": ["Boys student:\nRegular Class : Shirts tucked in + Leather Shoes(Black or brown)\nLab : Lab Uniform +Leather Shoes(Black or brown)\nGirls student:\nRegular Class : Chudithar with dupatta + Cut shoes\nLab : Lab Uniform +Cut shoes\nAlso they should always wear the Identity Card with tag when they are inside the campus."]
+    },
+    {
+      "tag": "lab-uniform",
+      "patterns": [
+        "Where are the lab uniforms available?","lab uniforms"
+      ],
+      "responses": ["Students can purchase these from our NIA Book depot which is inside the campus and for stitching a Tailor is also available within the campus"]
+    },
+    {
+      "tag": "mobile",
+      "patterns": [
+        "Are mobile phones permitted inside the campus?","Are mobile phones permitted"
+      ],
+      "responses": ["Yes. Mobile phones are permitted inside the campus but NOT inside the class rooms. Separate locker facilities are provided to the students for depositing their mobile phones during working hours. It is situated near the information center."]
+    },
+    {
+      "tag": "educational loan",
+      "patterns": [
+        "How can I apply for educational loan from bank?","educational loan"
+      ],
+      "responses": ["The students should request the Principal to issue Bonafide certificate and fees structure throughProgram coordinator /HOD of First year department. The college will issue Bonafide certificate and fees structure to apply for educational loan from bank. They can approach the bank in their locality on their own for the loan"]
+    },
+    {
+      "tag": "government scholarships",
+      "patterns": [
+        "How can I apply for government scholarships?","government scholarships"
+      ],
+      "responses": ["The college will send circular regarding the government scholarships. The student has to download the prescribed application form from the college website (www.mcet.in) and the filled in application form with necessary certificates has to be submitted to the office before the due dates."]
+    },
+    {
+      "tag": "ATM",
+      "patterns": [
+       "Is any bank or ATMs available inside the campus?"
+      ],
+      "responses": ["Syndicate Bank, NPT campus branch (IFSC code: SYNB0006139) is located within the campus. In addition to that, Syndicate bank and Axis bank have their ATMs in the college premises facing the main road (NH-209)"]
+    },
+    {
+      "tag": "open a savings account",
+      "patterns": [
+        "How can I open a savings account in the Syndicate bank located in the campus?","open a savings account"
+      ],
+      "responses": ["Savings account opening form can be collected from the college office. Filled in application form with necessary documents with introductory signature by First year HOD has to be submitted to the bank for opening the account."]
+    },
+    {
+      "tag": "original certificates",
+      "patterns": [
+        "When I will get all my original certificates which I have submitted during my admission?"
+      ],
+      "responses": ["After getting approval of admission from Directorate of Technical Education, Chennai, all the original certificates which was submitted during admission will be returned to the students."]
+    },
+    {
+      "tag": "Bonafide",
+      "patterns": [
+        "How can I get the Bonafide certificates from the college to apply Bus pass/ Passport/scholarships/ welfare fund etc ?"
+      ],
+      "responses": ["Students can apply for Bonafide certificate through first year department office for Bus pass/ Passport/scholarships/ welfare fund etc."]
+    },
+    {
+      "tag": "second year fee",
+      "patterns": [
+        "How can I pay the college fees from second year onwards?","pay college fee for second year"
+      ],
+      "responses": ["Necessary communication will be sent to the parents during the month of May/June. Based on that information, they can pay the fees before the prescribed due date."]
+    },
+    {
+      "tag": "college working hour?",
+      "patterns": [
+        "What is the college working hour?","working hour"
+      ],
+      "responses": ["Forenoon : 9.00 am to 12.40 pm \n Lunch interval : 12.40 pm to 1.45 pm \n Afternoon : 1.45 pm to 5.00 pm"]
+    },
+    {
+      "tag": "student meet",
+      "patterns": [
+        "Can parents meet their wards during working hours?","meet student on working hours"
+      ],
+      "responses": ["They have to meet the department HOD through the Faculty Advisor, and after getting his consent only they can meet their ward during the working hours."]
+    },
+    {
+      "tag": "student eligibility",
+      "patterns": [
+        "Are there any eligibility criteria for students to appear for the End Semester Examinations?"
+      ],
+      "responses": ["1. Students should secure a minimum of 75% of attendance in each subject individually.\n 2. They should pay the examination fees before the due date."]
+    },
+    {
+      "tag": "parking",
+      "patterns": [
+        "Can students park Two-wheeler/ four wheelers inside the college?","parking inside college"
+      ],
+      "responses": ["Students with valid driving license and wearing helmets can park their two-wheelers at the designated places inside the campus. Students coming in two wheelers without helmets are not permitted inside the campus.There is no parking facility for students to park their four wheelers inside the campus."]
+    },
+    {
+      "tag": "bus facilities",
+      "patterns": [
+        "How can I use college bus facilities?","bus facilities"
+      ],
+      "responses": ["College buses are plying in the following routes:\n Anamalai Route : Anamalai, Manakkadavu,Govindapuram\n Kottur Route : Angalakurichi,\n Coimbatore Route : Othakkalmandapam, Ondipudur, Gandhipuram\n Dharapuram\n Tiruppur via Palladm\n Udumalpet\n Pollachi Bus stand Parents / students can contact the central office regarding the bus fees structure . Once they paid the prescribed fees, the office will issue a Bus Pass. By showing the Bus pass the student can utilize the college bus facility."]
+    },
+    {
+      "tag": "internal marks",
+      "patterns": [
+        "How internal marks are calculated for Theory Courses?","internal marks calculation"
+      ],
+      "responses": ["Three internal tests called Continuous Comprehensive Evaluation Tests (CCETs) will be conducted in the spread of the semester before end semester examinations for one and half hour duration and marks for each test will be for 50 marks. The weightage for each CCET is 10 marks for calculating internal marks. Tutorial/ Quiz /Assignment (TQA) will be conducted and weightage for TQA component will be 10 marks. Hence Internal marks will be 40 marks for all Theory courses"]
+    },
+    {
+      "tag": "common_questions",
+      "patterns": [
+        "How are you?", "Are you a bot?", "What's your name?", "Where are you located?",
+        "Tell me a joke", "What's the weather like?", "How old are you?", "Who created you?"
+      ],
+      "responses": [
+        "I'm just a virtual assistant, but I'm here to help you!", "Yes, I'm a bot designed to assist you.", 
+        "I don't have a personal name, but you can call me Assistant.", "I'm not physically located anywhere, I exist in the digital world.", 
+        "Sure, here's a joke for you: Why don't scientists trust atoms? Because they make up everything!", 
+        "I'm not equipped to provide real-time weather information.", "I don't have an age as I am a digital creation.", 
+        "I was created by Team Greek, a team of developers and researchers."
+      ]
+    }
+  ]
+}
+

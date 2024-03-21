@@ -1,0 +1,1146 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good day", "Greetings"
+      ],
+      "responses": ["Welcome, Let's embark on a journey to make your to make your financial dreams a reality, one wise decision at a time" , 
+      " Welcome!Let's navigate the seas of finance together"]
+    },
+    {
+      "tag": "Budgeting and Referencing",
+      "patterns": ["Which is better  investment or savings" , 
+      " Which is more advantageous savings or investment?", 
+      "Investment or savings"
+       
+      ],
+      "responses": [" Investments typically offer higher potential returns but also come with higher risks.Savings, on the other hand, provide security and liquidity but generally offer lower returns. It's often advisable to have a mix of both in your financial plan to balance risk and reward."]
+    },
+    {
+      "tag": "credit or debit",
+      "patterns": [
+        "Difference between a debit card and a credit card","credit card or debit card",
+        "debit card"
+      ],
+      "responses": ["A debit card deducts funds directly from a checking account, while a credit card allows users to borrow money up to a certain limit, with the obligation to repay later."]
+    },
+    {
+      "tag": "keyfactor for loan",
+      "patterns": [
+        "Key factors to consider before taking out a loan","factor for loan",
+        "loan","loan factor"
+      ],
+      "responses": ["Factors include interest rates, repayment terms, fees, loan purpose, creditworthiness, and potential impact on cash flow and financial goals."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Farewell","take care","thank you"
+      ],
+      "responses": ["Thank you. Have a great day!"]
+    },
+    {
+      "tag": "net worth",
+      "patterns": [
+        "net worth", "worth", "worth of a person", "worthy"
+      ],
+      "responses": ["Net worth is calculated by subtracting total liabilities (debts) from total assets. It provides a snapshot of an individual's or organization's financial health"]
+    },
+    {
+      "tag": "How compound interest works",
+      "patterns": [
+        "How compound interest works", "compound interest", "CI", "compound interest works","CI work"
+      ],
+      "responses": ["Compound interest is interest calculated on both the initial principal and the accumulated interest from previous periods. Over time, it can significantly increase the value of an investment."]
+    },
+    {
+      "tag": "credit score",
+      "patterns": [
+        "How can I improve my credit score", "credit score", "improve my credit score", "my credit score"
+      ],
+      "responses": ["A credit score is a numerical representation of an individual's creditworthiness, calculated based on their credit history. To improve it, pay bills on time, keep credit card balances low, maintain a diverse credit mix, limit new credit applications, and regularly review credit reports for errors. Consistent responsible financial behavior over time can lead to a higher credit score."]
+    },
+    {
+      "tag": "Investmennt plans ",
+      "patterns": ["guidance for investment plan"," investment plan",
+        ""
+      ],
+      "responses": ["For investment planning, set clear goals, assess risk tolerance, diversify across asset classes, regularly review and adjust your portfolio, and consider seeking advice from a financial advisor."]
+    },
+    {
+      "tag": "investment",
+      "patterns": [
+        "how can i invest in stock market or mutual funds"
+      ],
+      "responses": ["Online Brokerage Accounts: Sign up with a reputable online brokerage platform that offers stock trading and/or mutual fund investing. Many platforms have user-friendly interfaces and educational resources.\n Robo-Advisors: Use automated investment platforms that build and manage a diversified portfolio of stocks or mutual funds based on your risk tolerance and financial goals.Direct Mutual Fund Investment: Many mutual fund companies allow you to invest directly with them without going through a broker. You can usually do this online or by mail.Employer-Sponsored Retirement Plans: If your employer offers a 401(k) or similar retirement plan, you can invest in mutual funds through these plans.Traditional Financial Institutions: Banks and credit unions often offer investment services, including access to mutual funds."]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "Help",
+        "I need assistance",
+        "Can you help me?",
+        "What can you do?",
+        "Support"
+      ],
+      "responses": ["Sure, I can help you with your finance-related queries. Just ask away!"]
+},
+   {
+  "tag": "balance_inquiry",
+  "patterns": [
+    "Check balance",
+    "How much do I have?",
+    "Balance inquiry",
+    "Account balance"
+  ],
+  "responses": ["To check your balance, please log in to your account or use our mobile app."]
+},
+{
+  "tag": "contact_support",
+  "patterns": [
+    "Contact support",
+    "Customer service",
+    "Help desk",
+    "Talk to a representative"
+  ],
+  "responses": ["Our customer service team is available to assist you. You can reach us via phone[+044 747548,] email[customercare@online.sbi], or live chat."]
+},
+{
+  "tag": "goodbye",
+  "patterns": [
+  "Bye", "Goodbye", "See you later", "Farewell","take care","thank you"
+  ],
+  "responses": ["Thank you. Have a great day!", "Take care. Goodbye!", "Goodbye! Stay safe.", "See you later! Thanks for chatting.", "Farewell! It was nice talking to you."]
+
+},
+
+{
+  "tag": "loan",
+  "patterns": [
+    "how many days does it takes to transaction of educational loan ","education loan","loan for education"
+  ],
+  "responses": ["Within 15 working days from the date of reciept of the complete education loan aplication along with all document required buy the bank"]
+},
+{
+  "tag": "financial_education",
+  "patterns": ["Financial literacy", "Learn about finance", "Money management tips"],
+  "responses": ["Financial education is key to making informed decisions. I'm here to help you learn."]
+},
+{
+  "tag": "help",
+  "patterns": [
+    "Help",
+    "I need assistance",
+    "Can you help me?",
+    "What can you do?",
+    "Support"
+  ],
+  "responses": ["Sure, I can help you with your finance-related queries. Just ask away!"]
+},
+    {
+  "tag": "balance_inquiry",
+  "patterns": [
+    "Check balance",
+    "How much do I have?",
+    "Balance inquiry",
+    "Account balance"
+  ],
+  "responses": ["To check your balance, please log in to your account or use our mobile app."]
+}, 
+{
+  "tag": "contact_support",
+  "patterns": [
+    "Contact support",
+    "Customer service",
+    "Help desk",
+    "Talk to a representative"
+  ],
+  "responses": ["Our customer service team is available to assist you. You can reach us via phone[+044 747548,] email[customercare@online.sbi], or live chat."]
+},
+{
+  "tag": "loan_enquiry",
+  "patterns": [
+    "Loan enquiry",
+    "I need information about loans",
+    "Can you help me with a loan?",
+    "Loan options",
+    "Loan assistance"
+  ],
+  "responses": ["Sure, I can assist you with your loan inquiries. What specific information do you need?"]
+},
+{
+  "tag": "loan_info",
+  "patterns": [
+    "Tell me about loan options",
+    "I'm interested in applying for a loan",
+    "Can you explain different types of loans?",
+    "Loan terms and conditions",
+    "Loan eligibility criteria"
+  ],
+  "responses": ["Certainly! I can provide information on various loan options, eligibility criteria, and terms. Feel free to ask any specific questions you have."]
+},
+{
+  "tag": "loan_assistance",
+  "patterns": [
+    "Help me with loan application",
+    "I need guidance on getting a loan",
+    "Loan application process",
+    "Can you assist with loan approvals?",
+    "Loan requirements"
+  ],
+  "responses": ["Of course! I can provide assistance with your loan application process. Let me know what specific information you need or any questions you have about loan requirements."]
+},
+{
+  "tag": "saving_techniques",
+  "patterns": [
+    "How can I save money effectively?",
+    "What are some saving techniques?",
+    "Can you explain saving procedures?",
+    "Tips for saving money",
+    "How do I start saving?"
+  ],
+  "responses": ["To save money effectively, you can try various techniques such as budgeting, tracking expenses, setting financial goals, and automating savings. Would you like more detailed information on any specific technique?"]
+},
+{
+  "tag": "money savingtechniques",
+  "patterns": [
+    "How can I save money effectively?",
+    "What are some saving techniques?",
+    "Can you explain saving procedures?",
+    "Tips for saving money",
+    "How do I start saving?"
+  ],
+  "responses": ["Sure, I can help you with saving techniques and procedures. Some effective ways to save money include budgeting, tracking expenses, setting financial goals, and automating savings. Would you like more detailed information on any specific technique or procedure?"]
+},
+{
+  "tag": "home loan",
+  "patterns": [
+    
+    "how many days it take for home loan",
+    "home loan",
+    "home loan time"
+  ],
+  "responses": ["Generally, it takes about 3 to 4 weeks for your home loan to be sanctioned."]
+},
+{
+  "tag": "home loan",
+  "patterns": [
+    
+    "how many days it take for home loan",
+    "home loan",
+    "home loan time"
+  ],
+  "responses": ["Generally, it takes about 3 to 4 weeks for your home loan to be sanctioned."]
+},
+{
+  "tag": "balance_inquiry",
+  "patterns": [
+      "Check balance",
+      "What's my balance?",
+      "Balance inquiry",
+      "Account balance"
+  ],
+  "responses": [
+      "Sure, I can help with that. Could you please provide your account details?",
+      "To check your balance, please provide your account information.",
+      "Let me assist you with that. Can you provide your account details?"
+  ]
+},
+{
+  "tag": "investment_advice",
+  "patterns": [
+      "Investment advice",
+      "Where should I invest?",
+      "Advice on investments"
+  ],
+  "responses": [
+      "Investment advice is subjective and depends on various factors. Can you provide more details about your financial goals?",
+      "Before providing investment advice, I would need to understand your investment horizon and risk tolerance. Can you share more about your financial objectives?",
+      "Sure, I can give you some investment suggestions. Could you please provide details about your investment preferences and objectives?"
+]
+},
+{           
+  "tag": "loan_information",
+"patterns": [
+    "Loan details",
+    "Loan information",
+    "About my loan"
+],
+"responses": [
+    "Sure, I can assist you with that. Please provide your loan account number.",
+    "To provide information about your loan, I'll need your loan account details.",
+    "Let me help you with your loan details. Can you please provide your loan account number?"
+]
+},
+{
+  "tag": "expenditure",
+  "patterns": [
+    "How can I track my expenses?",
+    "How do I monitor my spending?",
+    "What are my expenditures?",
+    "Expenditure tracker",
+    "Expense management"
+  ],
+  "responses": [
+    "To track your expenses effectively, you can utilize the built-in expenditure tracker feature of our app.",
+    "Monitoring your spending is easy with our expenditure tracking tools. You can categorize expenses, set budgets, and analyze your spending habits.",
+    "You can view a detailed breakdown of your expenditures within the app, which includes categories such as groceries, utilities, entertainment, etc.",
+    "Our expense management feature allows you to set spending limits, receive alerts for overspending, and gain insights into where your money is going."
+]
+
+},
+{
+  "tag": "loan",
+  "patterns": [
+    
+    "which banks has lowest interest rate for home loan",
+    "lowest interest bank",
+    "low interest"
+  ],
+  "responses": ["Currently, Bank of India offers the lowest home loan interest rate starting from 8.30% p.a. Bank of Maharashtra, LIC Housing Finance and Union Bank of India offer rate of interest on home loans starting from 8.35% p.a"]
+},
+{
+  "tag": "investing",
+  "patterns": [
+    "How can I start investing?", 
+    "What are some beginner investment options?", 
+    "I want to invest, but I'm not sure where to start"
+  ],
+  "responses": [
+    "Investing is a great way to grow your wealth over time. Here are some beginner investment options:\n1. Start with a retirement account like a 401(k) or IRA\n2. Consider low-cost index funds or exchange-traded funds (ETFs)\n3. Research individual stocks of companies you believe in\n4. Explore robo-advisors for automated investment management\n5. Diversify your investments to reduce risk\n6. Educate yourself about different investment strategies and options before making decisions"
+  ]
+},
+{
+  "tag": "emergency_fund",
+  "patterns": [
+    "Why do I need an emergency fund?", 
+    "How much should I save for emergencies?", 
+    "What should I include in my emergency fund?"
+  ],
+  "responses": [
+    "An emergency fund provides financial security and peace of mind during unexpected situations like job loss, medical emergencies, or car repairs. It helps cover expenses without relying on credit cards or loans.",
+    "Financial experts recommend saving three to six months' worth of living expenses in your emergency fund. However, the exact amount may vary based on your individual circumstances and risk tolerance.",
+    "Include essential expenses such as housing costs, utilities, groceries, transportation, insurance premiums, and minimum debt payments in your emergency fund. Aim to cover expenses that you cannot eliminate or reduce during an emergency."
+  ]
+},
+{
+  "tag": "credit_score",
+  "patterns": [
+    "How can I improve my credit score?", 
+    "Why is my credit score important?", 
+    "What factors affect my credit score?"
+  ],
+  "responses": [
+    "Your credit score is crucial for obtaining loans, credit cards, and favorable interest rates. To improve your credit score, focus on:\n1. Paying bills on time\n2. Keeping credit card balances low\n3. Avoiding opening too many new accounts\n4. Regularly checking your credit report for errors\n5. Limiting credit inquiries\n6. Maintaining a diverse mix of credit accounts"
+  ]
+},
+{
+  "tag": "financial_goals",
+  "patterns": [
+    "How can I set financial goals?", 
+    "What are some examples of financial goals?", 
+    "Why are financial goals important?"
+  ],
+  "responses": [
+    "Setting financial goals helps you stay focused, motivated, and accountable for your financial success. Here's how you can set financial goals:\n1. Define specific, measurable, achievable, relevant, and time-bound (SMART) goals\n2. Prioritize your goals based on importance and urgency\n3. Break down larger goals into smaller milestones\n4. Track your progress regularly and adjust your goals as needed\n5. Celebrate your achievements along the way"
+  ]
+},
+{
+  "tag": "thanks",
+  "patterns": [
+    "Thank you!", 
+    "Thanks for your help", 
+    "Appreciate it"
+  ],
+  "responses": ["You're welcome! If you have any more questions, feel free to ask."]
+},
+{
+  "tag": "fallback",
+  "patterns": [],
+  "responses": ["I'm sorry, I didn't understand that. Could you please rephrase or ask a different question?"]
+},
+{
+  "tag": "savings",
+  "patterns": [
+    "How can I save money?",
+    "Ways to save money?",
+    "Tips for saving money",
+    "Saving strategies",
+    "How to start saving?"
+  ],
+  "responses": [
+    "Saving money is essential for financial security. Here are some tips:\n1. Create a budget and stick to it.\n2. Cut down on unnecessary expenses.\n3. Set specific savings goals.\n4. Automate your savings.\n5. Consider investing your savings for long-term growth.\nRemember, every small step counts towards a better financial future!"
+]
+},
+{
+  "tag": "doubts",
+  "patterns": [
+    "Can you help me with something?",
+    "I have a question about my finances.",
+    "I'm confused about my investments.",
+    "How does this feature work?",
+    "I need clarification on...",
+    "I'm not sure about...",
+    "Could you explain...",
+    "What does this term mean?",
+    "doubt"
+  ],
+  "responses": [
+    "Of course! I'm here to help.",
+    "I'll do my best to clear that up for you.",
+    "Let me provide some clarification.",
+    "I understand. Let's address your concerns.",
+    "Sure thing. What specifically would you like to know?",
+    "No problem. What questions do you have?"
+]
+},
+{
+  "tag": "feedback",
+  "patterns": [
+      "Feedback",
+      "Suggestions",
+      "Improvements",
+      "Complaints"
+  ],
+  "responses": [
+      "We appreciate your feedback! Please feel free to share any thoughts or concerns you have."
+  ]
+},
+{
+  "tag": "Financial Fitness Check",
+  "patterns": [
+      " can you assess my financial fitness and suggest improvement",
+      "financial fitness",
+      "suggest improvement",
+      "financial"
+  ],
+  "responses": [
+    "Absolutely! Let's start by analyzing your income, expenses, and savings goals. Once we have a clear picture, I'll provide personalized recommendations to improve your financial fitness."
+  ]
+},
+{
+  "tag": "feedback",
+  "patterns": [
+      "how can I turn my spare change into a fortune",
+      "spare change into a fortune",
+      "can I turn my spare change into a fortune",
+      "my spare change into a "
+  ],
+  "responses": [
+    "You got it! There are several strategies, from micro-investing apps to automated investment platforms, that can help you grow your wealth starting with small amounts. Let's explore some options together!"
+  ]
+},
+{
+  "tag": "some budgeting hacks",
+  "patterns": [
+      "can you teach me some budgeting hacks to stretch my dollars?",
+      "budgeting hacks",
+      "hacks to stretch my dollars",
+      "budgeting"
+  ],
+  "responses": [
+    "Sure thing! Budgeting doesn't have to be boring. I'll share some creative hacks to optimize your spending, prioritize your financial goals, and make your money work harder for you."
+  ]
+},
+{
+  "tag": "debts",
+  "patterns": [
+      "help me annihilate my debts",
+      "annihilate my debts",
+      "my debts",
+      "debts"
+  ],
+  "responses": [
+      "Absolutely! Let's tackle those debts head-on. I'll help you create a personalized debt repayment plan, negotiate lower interest rates, and explore strategies to accelerate your journey to debt freedom."
+  ]
+},
+{
+  "tag": "feeling the pinch",
+  "patterns": [
+      "weave some magic to help me without feeling in pinch",
+      "some magic to help me",
+      "without feeling the pinch",
+      "some magic"
+  ],
+  "responses": [
+      "You bet! Saving money doesn't have to feel like a sacrifice. I'll reveal some clever tricks to automate your savings, take advantage of cashback rewards, and find hidden pockets of savings in your budget."
+  ]
+},
+{
+  "tag": "networking_doubts",
+  "patterns": [
+    "Networking issues",
+    "Trouble with network connection",
+    "Network problem",
+    "Network error",
+    "Unable to connect"
+  ],
+  "responses": [
+    "I'm sorry to hear you're experiencing networking issues. Here are some steps you can try:\n1. Check your internet connection and make sure it's stable.\n2. Restart the app and see if the issue persists.\n3. If you're using Wi-Fi, try switching to mobile data, or vice versa.\n4. Ensure that your device's operating system and the app are up to date. If the problem continues, please contact our support team for further assistance."
+]
+},
+{
+  "tag": "rewards",
+    "patterns": [
+        "What are rewards?",
+        "Tell me about rewards",
+        "How do rewards work?",
+        "Reward system explanation",
+        "What's the deal with rewards?",
+        "Can you explain rewards?",
+        "Rewards info",
+        "I want to know about rewards"
+    ],
+    "responses": [
+        "Rewards in our app are points or bonuses you earn by using our services.",
+        "When you make transactions or achieve certain milestones, you earn rewards.",
+        "These rewards can then be redeemed for various benefits or incentives.",
+        "For instance, you might earn cashback, discounts, or even exclusive offers.",
+        "The more you engage with our app, the more rewards you can accumulate.",
+        "We also have special promotions where you can earn extra rewards.",
+        "Your rewards balance is displayed in the app, so you can track your progress.",
+        "Make sure to check our rewards section regularly for new opportunities.",
+        "If you have any specific questions about how to earn or redeem rewards, feel free to ask!"
+]
+
+},
+{
+  "tag": "ask_balance",
+  "patterns": [
+    "What's my balance?",
+    "Check my balance",
+    "Balance inquiry"
+  ],
+  "responses": [
+    "Sure! Please provide me with your account details.",
+    "To assist you with your balance, could you please provide your account information?"
+  ]
+},
+{
+  "tag": "transaction_history",
+  "patterns": [
+    "Transaction history",
+    "View recent transactions",
+    "Recent activity"
+  ],
+  "responses": [
+    "Sure! I can help you with that. Could you please specify the time period for the transaction history you're interested in?"
+  ]
+},
+{
+  "tag": "budget_management",
+  "patterns": [
+    "Help with budgeting",
+    "Budget management",
+    "Set up a budget"
+  ],
+  "responses": [
+    "Absolutely! Let's get started with setting up your budget. Could you please provide some information about your income and expenses?"
+  ]
+},
+{
+  "tag": "investment_advice",
+  "patterns": [
+    "Investment advice",
+    "Where to invest",
+    "Investment options"
+  ],
+  "responses": [
+    "Investing wisely is crucial. Could you please provide me with some information about your risk tolerance and investment goals?"
+  ]
+},
+{
+  "tag": "loan_inquiry",
+  "patterns": [
+    "Loan information",
+    "Apply for a loan",
+    "Interest rates on loans"
+  ],
+  "responses": [
+    "Certainly! I can help you with that. Could you please specify the type of loan you're interested in?"
+  ]
+},
+{
+  "tag": "credit_score",
+  "patterns": [
+    "Check credit score",
+    "Credit score inquiry",
+    "How to improve credit score"
+  ],
+  "responses": [
+    "Your credit score is an important aspect of your financial health. I can provide guidance on how to check it and improve it."
+  ]
+},
+{
+  "tag": "security_concerns",
+  "patterns": [
+    "Security concerns",
+    "Is the app secure?",
+    "Data protection measures"
+  ],
+  "responses": [
+    "Security is our top priority. We implement robust measures to ensure the safety of your data. Would you like more information on our security protocols?"
+  ]
+},
+{
+  "tag": "reporting_issues",
+  "patterns": [
+    "Reporting an issue",
+    "App isn't working",
+    "Technical problem"
+  ],
+  "responses": [
+    "I apologize for the inconvenience. Please provide details about the issue you're experiencing so that we can assist you accordingly."
+  ]
+},
+{
+  "tag": "financial_goals",
+  "patterns": [
+    "Setting financial goals",
+    "Long-term financial planning",
+    "Achieving financial milestones"
+  ],
+  "responses": [
+    "Setting clear financial goals is essential for your future. Let's discuss your goals and create a plan to achieve them."
+  ]
+},
+{
+  "tag": "tax_assistance",
+  "patterns": [
+    "Tax assistance",
+    "Filing taxes",
+    "Tax deductions"
+  ],
+  "responses": [
+    "Tax season can be complex. I can provide guidance on filing taxes and maximizing your deductions."
+  ]
+},
+{
+  "tag": "retirement_planning",
+  "patterns": [
+    "Retirement planning",
+    "Planning for retirement",
+    "Retirement savings"
+  ],
+  "responses": [
+    "Planning for retirement is crucial. Let's discuss strategies to build a secure retirement fund."
+  ]
+},
+{
+  "tag": "insurance_options",
+  "patterns": [
+    "Insurance options",
+    "Types of insurance",
+    "Insurance coverage"
+  ],
+  "responses": [
+    "Insurance is an important aspect of financial planning. Let's explore the different types of insurance and find the best coverage for you."
+  ]
+},
+{
+  "tag": "emergency_funds",
+  "patterns": [
+    "Emergency funds",
+    "Creating an emergency fund",
+    "Emergency savings"
+  ],
+  "responses": [
+    "Having an emergency fund provides financial security during unexpected events. Let's discuss how to create and maintain one."
+  ]
+},
+{
+  "tag": "debt_management",
+  "patterns": [
+    "Debt management",
+    "Paying off debt",
+    "Debt consolidation"
+  ],
+  "responses": [
+    "Managing debt is important for financial stability. Let's explore strategies to pay off debt and avoid accumulation."
+  ]
+},
+{
+  "tag": "financial_education",
+  "patterns": [
+    "Financial education",
+    "Improving financial literacy",
+    "Learning about finances"
+  ],
+  "responses": [
+    "Financial literacy is key to making informed decisions. I can provide resources to enhance your financial knowledge."
+  ]
+},
+{
+  "tag": "investment_strategies",
+  "patterns": [
+    "Investment strategies",
+    "Diversification",
+    "Risk management in investments"
+  ],
+  "responses": [
+    "Implementing sound investment strategies is essential for long-term growth. Let's discuss diversification and risk management."
+  ]
+},
+{
+  "tag": "savings_accounts",
+  "patterns": [
+    "Savings accounts",
+    "Types of savings accounts",
+    "Interest rates on savings"
+  ],
+  "responses": [
+    "Savings accounts are a fundamental part of financial planning. Let's explore the different types and find one that suits your needs."
+  ]
+},
+{
+  "tag": "financial_tools",
+  "patterns": [
+    "Financial tools",
+    "Budgeting apps",
+    "Investment calculators"
+  ],
+  "responses": [
+    "There are various tools available to assist you in managing your finances effectively. Let's explore some options together."
+  ]
+},
+{
+  "tag": "investment_products",
+ "patterns": [
+    "Investment products",
+    "Stocks",
+    "Bonds",
+    "Mutual funds"
+  ],
+  "responses": [
+    "There's a wide range of investment products available. Let's discuss which ones align with your investment goals and risk tolerance."
+  ]
+},
+{
+  "tag": "pension",
+  "patterns": ["What is a pension?", "How does a pension work?", "Pension plans"],
+  "responses": ["A pension is a retirement plan where an employee contributes funds during their working years to receive regular payments in retirement. It's a way to ensure financial security after retirement."]
+},
+{
+  "tag": "savings",
+  "patterns": ["How can I start saving money?", "Best ways to save money", "Saving tips"],
+  "responses": ["Starting to save money is a great step towards financial security. You can begin by setting a budget, cutting unnecessary expenses, and exploring savings accounts or investment options."]
+},
+{
+  
+  "tag": "mortgages",
+  "patterns": ["How do mortgages work?", "Types of mortgages", "Getting a mortgage",
+  "What is a mortgage?",
+  "How do mortgages work?",
+  "What are the types of mortgages?",
+  "How much can I borrow for a mortgage?",
+  "What is the interest rate for mortgages?",
+  "How do I qualify for a mortgage?",
+  "What is the difference between fixed-rate and adjustable-rate mortgages?",
+  "What are the pros and cons of different mortgage terms?",
+  "What is a down payment?",
+  "How does mortgage insurance work?",
+  "What is the mortgage application process?",
+  "What factors affect mortgage approval?",
+  "What are closing costs?",
+  "What happens if I miss a mortgage payment?",
+  "How can I refinance my mortgage?",
+  "What is home equity?",
+  "What is a mortgage amortization schedule?",
+  "How does selling a home with a mortgage work?",
+  "What are prepayment penalties?"
+],
+  "responses": ["A mortgage is a loan used to purchase real estate. There are various types of mortgages, including fixed-rate and adjustable-rate mortgages. To get a mortgage, you'll typically need to have a good credit score, stable income, and a down payment."]
+},
+
+{
+  "tag": "retirement_planning",
+  "patterns": [
+    "Retirement planning", 
+    "Planning for retirement", 
+    "Retirement savings", 
+    "How to save for retirement"
+  ],
+  "responses": [
+    "Retirement planning is crucial for securing your financial future. Here are some ideas:",
+    "1. Start early: The earlier you begin saving for retirement, the more time your investments have to grow.",
+    "2. Set clear goals: Determine how much money you'll need for retirement based on your desired lifestyle.",
+    "3. Contribute to retirement accounts: Maximize contributions to employer-sponsored plans like 401(k)s or IRAs.",
+    "4. Take advantage of employer matches: If your employer offers a matching contribution, contribute enough to receive the full match—it's free money!",
+    "5. Diversify investments: Spread your investments across different asset classes to reduce risk.",
+    "6. Consider a Roth IRA: Contributions to a Roth IRA are made after-tax, allowing tax-free withdrawals in retirement.",
+    "7. Review and adjust regularly: Reassess your retirement plan periodically and make adjustments as needed.",
+    "8. Factor in healthcare costs: Include potential medical expenses in your retirement budget.",
+    "9. Explore other income sources: Investigate supplemental income streams such as rental properties or part-time work.",
+    "10. Consult a financial advisor: Seek professional advice to create a personalized retirement plan tailored to your needs."
+  ]
+},
+{
+  "tag": "farmers_benefits",
+  "patterns": [
+    "What are the benefits for farmers?",
+    "Can you tell me about financial benefits for farmers?",
+    "How can farmers benefit financially?"
+  ],
+  "responses": [
+    "Farmers can benefit from various financial schemes and subsidies provided by the government. Some of the benefits include:",
+    "1. Subsidized loans for agricultural purposes.",
+    "2. Crop insurance to mitigate risks associated with crop failure.",
+    "3. Price support mechanisms for certain crops.",
+    "4. Grants for adopting modern farming techniques and equipment.",
+    "5. Subsidies for purchasing seeds, fertilizers, and pesticides.",
+    "These are just a few examples. Different regions may offer different schemes. It's advisable for farmers to check with their local agricultural department for specific benefits available in their area."
+  ]
+},
+{
+  "tag": "other_topics",
+  "patterns": [
+    "Can you help with other topics?",
+    "What else can I ask about?",
+    "Any other information available?"
+  ],
+  "responses": [
+    "Sure, I can help with various topics related to finance, investments, and more. Feel"]
+  },
+{
+  "tag": "feedback",
+  "patterns": [
+      "Feedback",
+      "Suggestions",
+      "Improvements",
+      "Complaints"
+  ],
+  "responses": [
+      "We appreciate your feedback! Please feel free to share any thoughts or concerns you have."
+  ]
+},
+
+{
+  "tag": "payment_of_bills",
+  "patterns": [
+    "How do I pay my bills?",
+    "Can you explain bill payments?",
+    "I need help with paying bills",
+    "How to settle bills?",
+    "Managing bill payments"
+  ],
+  "responses": [
+    "To pay your bills, you can navigate to the 'Bill Payments' section in the app.",
+    "You can pay your bills by selecting the 'Pay Bills' option on the main menu.",
+    "To settle your bills, go to the 'Payments' tab and choose 'Bill Payments'.",
+    "Managing bill payments is easy! You can do it from the 'Bills' section of the app."
+]
+},
+{
+  "tag": "financial freedom",
+  "patterns": [
+      "provide me with a roadmap to get there",
+      "dream of financial freedom",
+      "financial freedom",
+      "finance freedom"
+  ],
+  "responses": [
+      "Absolutely! Financial freedom is within reach, and I'll help you map out a personalized plan to achieve it. We'll focus on building passive income streams, reducing expenses, and investing wisely to create a life of financial independence"
+  ]
+},
+{
+  "tag": "wealth and abundance",
+  "patterns": [
+      "cultivate a mindset that attracts wealth and abundance",
+      "wealth and abundance",
+      "Improvements",
+      "wealth"
+  ],
+  "responses": [
+      "Absolutely! Cultivating a money mindset rooted in abundance and positivity is key to attracting wealth. Let's explore mindfulness practices, gratitude exercises, and mindset shifts to unlock your financial potential"
+  ]
+},
+{
+  "tag": "maximize my returns",
+  "patterns": [
+      "can you guide me through the maze of taxes and help me maximize my returns",
+      "help me maximize my returns",
+      "guide me through the maze of taxes",
+      "maximize my returns"
+  ],
+  "responses": [
+      "Of course! Navigating taxes can be daunting, but I'm here to help. Let's review your tax situation, identify potential deductions and credits, and ensure you're maximizing your tax savings."
+  ]
+},
+{
+  "tag": "start investing",
+  "patterns": [
+      "start investing",
+      "I want to start investing",
+      "start investing",
+      "investing"
+  ],
+  "responses": [
+      "Great decision! Start by educating yourself about different investment options and their associated risks. Consider your financial goals, risk tolerance, and time horizon before making any investment decisions. You may want to start with low-cost index funds or exchange-traded funds (ETFs) for diversified exposure to the market"
+  ]
+},
+{
+  "tag": "how can I improve my credit score",
+  "patterns": [
+      "how can I improve my credit score",
+      "improve my credit score",
+      "credit score",
+      "improve my credit score"
+  ],
+  "responses": [
+      "Improving your credit score takes time and effort, but it's achievable. Start by paying your bills on time, reducing credit card balances, and avoiding opening too many new accounts. Regularly check your credit report for errors and dispute any inaccuracies. Additionally, consider keeping old accounts open to maintain a longer credit history."
+  ]
+},
+{
+  "tag": "best way to ation",
+  "patterns": [
+      "child's education",
+      "save for my child's education",
+      "child education"
+  ],
+  "responses": [
+      "aving for your child's education is important, and there are several options available. Consider opening a 529 college savings plan, which offers tax advantages and flexible investment options. You can also explore custodial accounts, education savings accounts (ESAs), or even a high-yield savings account. Start saving early and contribute regularly to reach your savings goals"
+  ]
+},
+{
+  "tag": "index funds",
+  "patterns": [
+      "index funds"
+  ],
+  "responses": [
+      "Index funds are investment funds that track a specific market index, such as the S&P 500. They offer broad market exposure and typically have lower fees compared to actively managed funds."
+  ]
+},
+{
+  "tag": "emergency fund",
+  "patterns": [
+      "emergency fund",
+      "emergency"
+  ],
+  "responses": [
+      "Start small by setting aside a percentage of your income each month. Look for areas where you can cut expenses and redirect those savings towards your emergency fund"
+  ]
+},
+{
+  "tag": " IRA and Roth IRA",
+  "patterns": [
+      "IRA ",
+      "IRA and Roth IRA",
+      "Roth IRA",
+      "traditional IRA"
+  ],
+  "responses": [
+      "A traditional IRA allows you to make tax-deductible contributions, but you'll pay taxes when you withdraw funds in retirement. With a Roth IRA, contributions are made with after-tax dollars, but withdrawals in retirement are tax-free"
+  ]
+},
+{
+  "tag": "buying a home",
+  "patterns": [
+      "buying a home",
+      "home",
+      "buy home",
+      "home buying"
+  ],
+  "responses": [
+      "Aim to save at least 20% of the home's purchase price for a down payment. This will help you avoid private mortgage insurance (PMI) and secure more favorable loan terms."
+  ]
+},
+{
+  "tag": "protect myself from identity theft and fraud",
+  "patterns": [
+      "protect myself from identity theft and fraud",
+      "identity theft and fraud",
+      "theft and fraud",
+      "protect myself from identity"
+  ],
+  "responses": [
+      "Protecting your personal and financial information is crucial in today's digital world. Start by regularly monitoring your credit report for any suspicious activity. Use strong, unique passwords for online accounts and enable two-factor authentication whenever possible. Be cautious of phishing emails and never provide sensitive information to unsolicited callers or emails. Consider freezing your credit to prevent unauthorized access to your credit report."
+  ]
+},
+{
+  "tag": "the best way to pay off student loans",
+  "patterns": [
+      "the best way to pay off student loans",
+      "pay off student loans",
+      "pay off",
+      "pay off student loan"
+  ],
+  "responses": [
+      "Consider refinancing your loans to lower your interest rate, and focus on paying off high-interest loans first. Explore income-driven repayment plans and look for opportunities to make extra payments when possible"
+  ]
+},
+{
+  "tag": "real estate investing",
+  "patterns": [
+      "real estate investing",
+      "real estate",
+      "investing in real estate"
+  ],
+  "responses": [
+      "Start by researching different investment strategies, such as rental properties, fix-and-flip projects, or real estate investment trusts (REITs). Consider working with a mentor or joining a real estate investment group for guidance and support"
+  ]
+},
+{
+  "tag": "medical_expenses",
+  "patterns": [
+    "What are considered medical expenses?",
+    "Can you explain medical expenses?",
+    "How can I use my funds for medical expenses?",
+    "What qualifies as a medical expense?",
+    "Tell me about expenses related to healthcare",
+    "Are there any limitations on medical expenses?",
+    "Can you list some examples of medical expenses?",
+    "Explain eligible medical expenses",
+    "What medical costs can be reimbursed?",
+    "Which medical bills can I pay using this system?"
+  ],
+
+  "responses": [
+      "Medical expenses typically include costs related to healthcare services and products that are necessary for the diagnosis, treatment, or prevention of illness or injury. This can include doctor visits, hospital stays, surgeries, prescription medications, medical equipment, and other related expenses. It's important to keep accurate records and receipts for these expenses for reimbursement or tax purposes"
+  ]
+},
+{
+  "tag": "share_market_investment",
+  "patterns": [
+    "How can I start investing in the stock market?",
+    "What are some tips for investing in shares?",
+    "I'm interested in investing in the stock market, where should I begin?",
+    "share market",
+    "What factors should I consider before investing in shares?"
+  ],
+  "responses": [
+    "Investing in the stock market can be a rewarding way to grow your wealth over time. Here are some tips to get started:\n1. Educate yourself: Learn the basics of how the stock market works, including terminology and different investment strategies.\n2. Set investment goals: Determine your financial objectives and risk tolerance before investing.\n3. Create a diversified portfolio: Spread your investments across different sectors and asset classes to reduce risk.\n4. Research companies: Analyze financial statements, market trends, and company performance before buying stocks.\n5. Monitor your investments: Keep track of market news and regularly review your portfolio to make informed decisions.\nRemember to consult with a financial advisor or do thorough research before making any investment decisions."
+]
+},
+{
+  "tag": "feedback",
+  "patterns": [
+      "Feedback",
+      "Suggestions",
+      "Improvements",
+      "Complaints"
+  ],
+  "responses": [
+      "We appreciate your feedback! Please feel free to share any thoughts or concerns you have."
+  ]
+},
+{
+  "tag": "stock_news",
+  "patterns": [
+    "What's the latest news on [stock]?", 
+    "Any updates on [stock]?"
+  ],
+  "responses": ["Let me fetch the latest news on [stock] for you."]
+},
+
+{
+  "tag": "FIRE",
+  "patterns": [
+      "FIRE",
+      "Financial Independence, Retire Early",
+      "fire",
+      "fir"
+  ],
+  "responses": [
+      "FIRE is all about saving aggressively, investing wisely, and living frugally to achieve financial independence. Let's discuss personalized strategies to fast-track your journey to FIRE"
+  ]
+},
+{
+  "tag": "leverage technology",
+  "patterns": [
+      "leverage technology",
+      " leverage technology to manage my finances more effectively"
+     
+  ],
+  "responses": [
+      "Technology offers a plethora of tools and apps for budgeting, investing, and tracking expenses. Let's explore innovative solutions to streamline your financial management process."
+  ]
+},
+{
+  "tag": " align my investments with my values",
+  "patterns": [
+      " align my investments with my values",
+      "align my investments",
+      "investments with my values"
+      
+  ],
+  "responses": [
+      "Absolutely! Let's explore ethical investing options, such as ESG (Environmental, Social, and Governance) funds, impact investing, and socially responsible portfolios, to create a positive impact while growing your wealth."
+  ]
+},
+{
+  "tag": "protect",
+  "patterns": [
+      "protect my wealth from inflation",
+      "protect my wealth ",
+      "wealth"
+  ],
+  "responses": [
+      "To protect your wealth from inflation, consider investing in assets that historically outpace inflation such as stocks, real estate, and commodities. Diversifying your portfolio and periodically adjusting your investments can also help mitigate the impact of inflation"
+  ]
+},
+{
+  "tag": "inheritance.",
+  "patterns": [
+      "inheritance.",
+      "received an inheritance"
+  ],
+  "responses": [
+      "When managing an inheritance, it's important to take time to assess your financial goals and needs. Consider paying off high-interest debt, building an emergency fund, and investing in a diversified portfolio aligned with your risk tolerance and time horizon."
+  ]
+},
+{
+  "tag": "financial stress",
+  "patterns": [
+      "financial stress",
+      "strategies for managing financial stress",
+      "stress",
+      "finance stress"
+  ],
+  "responses": [
+      "Managing financial stress can involve creating a budget to gain control over your finances, seeking professional help from a financial advisor or counselor, practicing mindfulness and relaxation techniques, and focusing on taking small, manageable steps towards financial stability."
+  ]
+},
+{
+  "tag": "ethical investing",
+  "patterns": [
+      "ethical investing",
+      "ethical invest"
+  ],
+  "responses": [
+      "Ethical investing, also known as socially responsible investing (SRI) or sustainable investing, involves selecting investments based on environmental, social, and governance (ESG) criteria. This approach allows investors to support companies that align with their values while seeking financial returns"
+  ]
+},
+{
+  "tag": "investments during economic downturns",
+  "patterns": [
+      "investments during economic downturns",
+      "economic downturns"
+  ],
+  "responses": [
+      "To protect your investments during economic downturns, consider diversifying your portfolio across different asset classes, maintaining a long-term investment perspective, and staying informed about market trends. Rebalancing your portfolio and avoiding emotional reactions to market fluctuations can also help"
+  ]
+},
+{
+  "tag": "retirement age",
+  "patterns": [
+      "retirement age",
+      "retirement "
+  ],
+  "responses": [
+      "As you approach retirement, review your retirement savings, estimate your retirement expenses, and consider creating a retirement income plan. Evaluate your Social Security and pension options, adjust your investment portfolio to reduce risk, and prepare emotionally for the lifestyle changes ahead."
+  ]
+},
+{
+  "tag": "stock_performance",
+  "patterns": [
+    "How has [stock] been performing recently?", 
+    "Show me [stock]'s performance"
+  ],
+  "responses": ["[Stock] has been performing..."]
+}
+
+
+  ]
+}
+

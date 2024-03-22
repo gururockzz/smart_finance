@@ -34,9 +34,9 @@
       "responses": ["Factors include interest rates, repayment terms, fees, loan purpose, creditworthiness, and potential impact on cash flow and financial goals."]
     },
     {
-      "tag": "goodbye",
+      "tag": "thank you",
       "patterns": [
-        "Bye", "Goodbye", "See you later", "Farewell","take care","thank you"
+        "Bye", "Goodbye", "See you later", "Farewell","take care","thank you","thanks"
       ],
       "responses": ["Thank you. Have a great day!"]
     },
@@ -1143,4 +1143,3 @@
 
   ]
 }
-
